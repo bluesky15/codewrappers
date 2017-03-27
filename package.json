@@ -1,0 +1,26 @@
+{
+  "name": "codewrappers",
+  "version": "1.0.0",
+  "description": "node app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erlalitkumar/codewrappers.git"
+  },
+  "keywords": [
+    "node",
+    "angular"
+  ],
+  "author": "lkb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erlalitkumar/codewrappers/issues"
+  },
+  "homepage": "https://github.com/erlalitkumar/codewrappers#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
