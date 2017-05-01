@@ -8,8 +8,9 @@ app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.get('/', function(req, res){
-res.status(200).send('Page is Under construction...!');
+// Catch all other routes and return the index file
+app.get('*', (req, res) => {
+res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
 var server = app.listen(process.env.PORT || '8080', function(){
